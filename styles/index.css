@@ -1,0 +1,46 @@
+body{
+				background-color: black;
+			}
+
+			button{
+				color: white;
+				width: 400px;
+				height: 160px;
+				border-radius: 80px;
+				border: solid;
+				border-color: white;
+				cursor: pointer;
+				position: absolute;
+				font-family: Courier New;
+				font-weight: bold;
+				font-size: 28px;
+			}
+
+			button:hover{
+				opacity: 0.8;
+			}
+
+
+			.video-button{
+				background-color: grey;
+				margin-top: 400px;
+				margin-left: 800px;		
+
+			}
+
+				
+			.video-button:active{
+				background-color: white;
+				color: grey;
+			}
+
+			.rock-paper-scissors-button{
+				background-color: rgb(141,181,196);
+				margin-top: 600px;
+				margin-left: 800px;
+			}
+
+			.rock-paper-scissors-button:active{
+				background-color: white;
+				color: rgb(141,181,196);
+			}
