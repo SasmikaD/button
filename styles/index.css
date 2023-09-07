@@ -1,26 +1,11 @@
 body{
 	background-color: black;
-	max-width: 500px;
+	color: white;
+	max-width: 200px;
   	margin: auto;
 	margin-top: 200px;
-}
-
-
-button{
-	color: white;
-	width: 200px;
-	height: 100px;
-	border-radius: 50px;
-	border: solid;
-	border-color: white;
-	cursor: pointer;
-	position: absolute;
 	font-family: Courier New;
-	font-weight: bold;
-	font-size: 25px;
-
 }
-	
 
 button:hover{
 	opacity: 0.8;
@@ -31,6 +16,14 @@ button:hover{
 	background-color: grey;
 /* 	margin-top: 400px; */
 /* 	margin-left: 800px;		 */
+	width: 200px;
+	height: 100px;
+	border-radius: 50px;
+	border: solid;
+	border-color: white;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 25px;
 
 }
 
@@ -44,6 +37,14 @@ button:hover{
 	background-color: rgb(141,181,196);
 /* 	margin-top: 600px; */
 /* 	margin-left: 800px; */
+	width: 200px;
+	height: 100px;
+	border-radius: 50px;
+	border: solid;
+	border-color: white;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 25px;
 }
 
 .rock-paper-scissors-button:active{
