@@ -14,6 +14,9 @@ button{
 	font-family: Courier New;
 	font-weight: bold;
 	font-size: 28px;
+	max-width: 500px;
+  	margin: auto;
+	margin-top: 200px;
 }
 
 button:hover{
@@ -23,8 +26,8 @@ button:hover{
 
 .video-button{
 	background-color: grey;
-	margin-top: 400px;
-	margin-left: 800px;		
+/* 	margin-top: 400px; */
+/* 	margin-left: 800px;		 */
 
 }
 
@@ -36,8 +39,8 @@ button:hover{
 
 .rock-paper-scissors-button{
 	background-color: rgb(141,181,196);
-	margin-top: 600px;
-	margin-left: 800px;
+/* 	margin-top: 600px; */
+/* 	margin-left: 800px; */
 }
 
 .rock-paper-scissors-button:active{
