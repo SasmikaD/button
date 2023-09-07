@@ -2,4 +2,7 @@
 
 a simple webpage that contains a button with a suprise
 
-(HTML, CSS, a wee bit of Javascript)
+updated:
+includes another button that takes you to a game
+
+(HTML, CSS, Javascript)
