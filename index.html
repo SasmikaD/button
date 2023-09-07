@@ -12,16 +12,11 @@
 
 			button{
 				color: white;
-				background-color: grey;
 				width: 400px;
 				height: 160px;
 				border-radius: 80px;
 				border: solid;
 				border-color: white;
-				position: absolute;
-  				margin: -80px 0 0 -200px; 
-  				left: 50%;
-  				top: 50%;
 				cursor: pointer;
 				position: absolute;
 				font-family: Courier New;
@@ -31,11 +26,31 @@
 
 			button:hover{
 				opacity: 0.8;
-			}	
+			}
 
-			button:active{
+
+			.video-button{
+				background-color: grey;
+				margin-top: 400px;
+				margin-left: 800px;		
+
+			}
+
+				
+			.video-button:active{
 				background-color: white;
 				color: grey;
+			}
+
+			.rock-paper-scissors-button{
+				background-color: rgb(141,181,196);
+				margin-top: 600px;
+				margin-left: 800px;
+			}
+
+			.rock-paper-scissors-button:active{
+				background-color: white;
+				color: rgb(141,181,196);
 			}
 
 		</style>
@@ -43,7 +58,8 @@
 
 	<body>
 
-		<button onclick="window.location.href='https://www.youtube.com/watch?v=KCzwyFHSMdY';" target="_blank">press me right now</button>
+		<button class="video-button" onclick="window.location.href='https://www.youtube.com/watch?v=Kmu05DsBc_Y';" target="_blank">press me right now</button>
+		<button class="rock-paper-scissors-button" onclick="rock-paper-scissors.html" target="_blank">rock paper scissors</button>
 
 	</body>
 
