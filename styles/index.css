@@ -72,5 +72,5 @@ button:hover{
 
 .to-do-list-button:active{
 	background-color: white;
-	color: rgbrgb(232,145,116);
+	color: rgb(232,145,116);
 }
