@@ -27,6 +27,7 @@ body {
 	row-gap: 15px;
 	padding: 6px;
 	align-items: center;
+	position: absolute;
 }
 
 .todo-input-grid{
