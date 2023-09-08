@@ -1,0 +1,66 @@
+
+body {
+	text-decoration: none;
+	font-family: 'Courier New', Courier, monospace;
+	background-color: rgb(232,145,118);
+	color: white;
+	max-width: 600px;
+  	margin: auto;
+	margin-top: 80px;
+}
+
+.title {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.is-done {
+	text-decoration: line-through;
+}
+
+.todo-grid, .todo-input-grid {
+	display: grid;
+	grid-template-columns: 110px 80px 250px  100px 75px;
+	font-weight: bold;
+	column-gap: 10px;
+	row-gap: 15px;
+	padding: 6px;
+	align-items: center;
+}
+
+.todo-input-grid{
+	margin-bottom: 10px;
+	align-items: stretch;
+}
+
+.name-input, .due-date-input .start-time-input{
+	font-size: 15px;
+	padding: 6px;
+	font-family: 'Courier New', Courier, monospace;
+	
+}
+
+.add-button{
+	background-color: rgb(232,162,176);
+}
+
+.delete-button{
+	background-color: rgb(232,116,117);
+}
+
+.complete-button{
+	background-color: rgb(22,162,176);
+}
+
+.add-button, .delete-button, .complete-button{
+	cursor: pointer;
+	border-radius: 50px; 
+	border: solid;
+	border-color: white;
+	/* font-weight: bold; */
+	color: white;
+	padding: 6px;
+	/* margin-top: -7px; */
+	font-family: 'Courier New', Courier, monospace;
+}
