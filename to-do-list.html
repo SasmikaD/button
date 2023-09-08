@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To Do List</title>
+	<link rel = "icon" type = "pen/png" href = "">
+	<link rel = "stylesheet" href="styles/todo-list.css">
+
+    </head>
+    <body>
+        <p class="title">To Do List</p>
+
+	<div class="todo-input-grid">
+		<input type="date" class="js-due-date-input due-date-input">
+		<input type="time" class="js-start-time-input start-time-input">
+		<input placeholder="Add Task" class = "js-name-input name-input" onkeypress="
+			taskInput=document.querySelector('.js-name-input').value;
+			dateInput = document.querySelector('.js-due-date-input').value;
+			timeInput = document.querySelector('.js-start-time-input').value;
+			if (event.key === 'Enter' && taskInput != '' && dateInput != '' && timeInput != '') {
+				addTodo();
+			}">
+	
+		
+
+		<button onclick="
+			taskInput=document.querySelector('.js-name-input').value;
+			dateInput = document.querySelector('.js-due-date-input').value;
+			timeInput = document.querySelector('.js-start-time-input').value;
+			if (taskInput != '' && dateInput != '' && timeInput != '') {
+				addTodo();
+			}
+		" class="add-button">Add</button>
+	</div>
+
+	<div class="js-todo-list todo-grid">
+	</div>
+
+        <script src="scripts/to-do-list.js"></script>
+    </body>
+</html>
+
+<!-- <span class="js-complete-task${i}">${i+1}. ${name} ${dueDate} [${startTime}]</span> -->
