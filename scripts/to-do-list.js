@@ -1,12 +1,4 @@
-const todoList=[{
-	name: 'make dinner',
-	dueDate: '08-09-2023',
-	startTime: '14:15',
-},{
-	name: 'wash dishes',
-	dueDate: '08-09-2023',
-	startTime: '16:30',
-}];
+const todoList=[];
 
 function renderTodoList(){
 	let todoListHTML = '';
