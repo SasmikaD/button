@@ -23,11 +23,10 @@ body {
 	display: grid;
 	grid-template-columns: 110px 80px 250px  100px 75px;
 	font-weight: bold;
-	column-gap: 10px;
+	column-gap: 12px;
 	row-gap: 15px;
 	padding: 6px;
 	align-items: center;
-	position: absolute;
 }
 
 .todo-input-grid{
